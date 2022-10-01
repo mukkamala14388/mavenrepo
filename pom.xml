@@ -26,15 +26,10 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://54.225.2.62:8081/repository/maven-snapshots/</url>
-        </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.198.99.193:8081/repository/maven-snapshots//</url>
+            <url>http://54.225.2.62:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
